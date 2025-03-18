@@ -1,0 +1,13 @@
+
+// Program Kasir Sederhana:
+// 1. Input harga barang
+// 2. Hitung total harga
+// 3. Hitung diskon jika ada
+// 4. Cetak struk pembayaran
+
+function kasir(harga, diskon = 0.1) {
+    let total = harga - (harga * diskon);
+    console.log(`Total yang harus dibayar: Rp${total}`);
+}
+
+kasir(100000);
